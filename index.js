@@ -1,9 +1,10 @@
-// Your code here
-
+// Grabs the HTML Element
 let dodger = document.getElementById("dodger");
 
+// Sets the HTML element to a certain color
 dodger.style.backgroundColor = "#FF69B4";
 
+// 
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
