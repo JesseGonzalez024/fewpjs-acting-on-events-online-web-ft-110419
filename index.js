@@ -4,10 +4,9 @@ let dodger = document.getElementById("dodger");
 // Sets the HTML element to a certain color
 dodger.style.backgroundColor = "#FF69B4";
 
-// 1. Declares a function
+// 1. Declares a function 
 function moveDodgerLeft() {
   
-  // 2. 
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
  
