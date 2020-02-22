@@ -7,7 +7,6 @@ dodger.style.backgroundColor = "#FF69B4";
 // 1. Declares a function 
 function moveDodgerLeft() {
   
-  
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
  
@@ -25,6 +24,7 @@ function moveDodgerRight() {
   }
 }
 
+// Creates logic "if... else..." scenarios.
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
